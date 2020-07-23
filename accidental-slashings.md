@@ -12,7 +12,7 @@
 
 
 
-### Resources
+### References
 See [original issue](https://github.com/ethereum/eth2.0-APIs/issues/64) here.
 
 See the discussion in [this issue](https://github.com/PegaSysEng/teku/issues/1887) too.

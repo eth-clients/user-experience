@@ -1,3 +1,5 @@
+## Accidental slashings
+
 ### Problem
 
 > Dankrad: Starting a validator client for the same validator twice is of course a user error. However, it's probably the most common user error that leads to slashing. If the two clients are started at the same time, there is no way to catch this error; however, in all other cases, the second client being started can detect that the last attestation made by the validator does not match its local storage, and refuse operation (without an override flag).
@@ -10,7 +12,7 @@
 
 
 
-### Resources
+### References
 See [original issue](https://github.com/ethereum/eth2.0-APIs/issues/64) here.
 
 See the discussion in [this issue](https://github.com/PegaSysEng/teku/issues/1887) too.

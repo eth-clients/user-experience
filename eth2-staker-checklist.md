@@ -21,7 +21,18 @@
 1. - [ ] I have backed up my password. 
 
 ## Security
-1. - [ ] I have set up a firewall on my machine(s).
+1. - [ ] I have secured the root account.
+2. - [ ] I have hardened ssh on a random port
+3. - [ ] I have set up a firewall.
+4. - [ ] I have forwarded the necessary ports from my router to the correct machine(s). Only open the ports that apply to your installation:
+        - [ ] Port 30303 TCP/UDP for geth
+        - [ ] Port 19000 TCP/UDP for Nimbus
+        - [ ] Port 9001 TCP/UDP for Teku
+        - [ ] Port 9000 TCP/UDP for Lighthouse
+        - [ ] Port 12000 UDP, Port 13000 TCP for Prysm
+        
+## Configure time sync
+1.  - [ ] For Ubuntu 20.04: `sudo timedatectl set-ntp on`
 
 ## Eth1 Client
 

@@ -24,7 +24,7 @@
 1. - [ ] I have secured the root account.
 2. - [ ] I have hardened ssh on a random port
 3. - [ ] I have set up a firewall.
-4. - [ ] I have forwarded the necessary ports from my router to the correct machine(s). Only open the ports that apply to your installation:
+4. - [ ] I have forwarded the necessary ports from my router to the correct machine(s). Only open the ports that apply to your installation (default ports listed):
         - [ ] Port 30303 TCP/UDP for geth
         - [ ] Port 19000 TCP/UDP for Nimbus
         - [ ] Port 9001 TCP/UDP for Teku
